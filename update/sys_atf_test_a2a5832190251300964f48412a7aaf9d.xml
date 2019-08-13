@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_atf_test">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Vote in poll by poll_id.
  - Poll_id is sys_id of poll. 
 
 Payload will include question_id's and choice value.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>CC18: Vote in poll</name>
+        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
