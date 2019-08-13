@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_atf_test">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
+        <copied_from/>
         <description>Delete poll by poll_id.&#13;
 - poll_id: sys_id of poll record</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
         <name>CC18: Delete a poll</name>
+        <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
